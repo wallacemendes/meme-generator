@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+nav {
+  display: flex;
+  background: linear-gradient(to right, #672280, #A626D3);
+  padding: 1.25rem 1.9rem;
+  column-gap: 0.5rem;
+}
+
+nav .nav-logo{
+  width: 2rem;
+}
+
+nav h1{
+  margin: 0;
+  color: #FFFFFF;
+  letter-spacing: -0.1rem;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  row-gap: 2rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.input-container{
+  display: flex;
+  column-gap: 1rem;
+}
+.input-text{
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.2rem;
+  flex: 1;
+}
+
+.input-text label{
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.input-text input{
+  border-radius: 0.2rem;
+  padding: 0.625rem;
+  border: 0.1rem solid #D1D5DB;
+  box-shadow: 0 0.01rem 0.1rem rgba(0, 0, 0, 0.05);
+
+}
+
+button{
+  border: 0;
+  border-radius: 0.3rem;
+  background: linear-gradient(to right, #672280, #A626D3);
+  color: #FFFFFF;
+  padding: 0.625rem;
+  cursor: pointer;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme--image {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+
